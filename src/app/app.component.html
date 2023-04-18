@@ -1,0 +1,172 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" routerLink="">Demo App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="Home" >Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  >JOBS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >CLIENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >EMPLOYERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >CONTACT US</a>
+      </li>
+</ul>
+    </div>
+</nav>
+
+<section class="home">
+
+  <img src="assets\istockphoto.jpg">
+  <br>
+
+<small class="text6 mt-4"> I'm looking for... </small><br>
+<form class="d-flex" role="search">
+  <input class="form-control  sb " type="search" placeholder="Enter Job Description" aria-label="Search">
+  <button class="btn btn-outline-info sb2 " type="submit">Search</button>
+</form>
+
+<div class="form-check form-check-inline tb mt-4">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Full time</label>
+</div>
+<div class="form-check form-check-inline tb mt-1">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Part Time/Casual/freelance</label>
+ </div>
+ <div class=" form-check-inline tb">
+  <input class="form-control me-2 " type="search" placeholder="Location" aria-label="Search">
+ </div>
+
+
+<br>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Registration
+</button>
+<br>
+<div class="card mt-3">
+  <div class="card-body cb">
+ <h6 style="text-align: center;">We're Leaders in </h6>
+ <h2  style="text-align: center;">Creative digital Recuritment</h2>
+ <br>
+
+ <small class="text">Based in surry hills, the creative hub of Sydney we are Surrounded by creativity <br> </small>
+ <small class="text1"> and that reflects on the type of jobs we recurit for</small>
+
+ <br>
+
+ <button type="button" class="btn btn-outline-info mt-5">Find out more about us !</button>
+  </div>
+</div>
+<div class="card mt-3 cardsiz">
+  <div class="card-body bgb " >
+    <small class="text1 " style="color: white;" >Subscribe to our Job Seeker Mailing List</small><br>
+    <div class="form-group has-search">
+     
+      <input type="text" class="form-control sb1 mt-3" placeholder="Enter Your Email Address" >
+    </div>
+  </div>
+</div>
+
+<div class="card mt-3">
+  <div class="card-body">
+      <div class="form-check form-check-inline ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input type="text" class="form-control-sm-1 sb3 mt-3 mr-5" placeholder="Search" >
+         </div>
+         <br>
+         <div class="form-check form-check-inline ">
+          <small>Copyright © 2014 Two Bytes Consulting <b>Terms & Policies</b></small>
+        </div>
+        <div class="form-check form-check-inline ">
+          
+         </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <form>
+<div class="row">
+  <div class="col">
+    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style="width: 100px;height: 80px;"
+    alt="Avatar" />
+    <a>Upload your photo</a>
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Last name">
+  </div>
+</div>
+
+  
+  <input class="form-control mr-sm-1 mt-2" type="search" placeholder="Email" aria-label="Search" required>
+  <input class="form-control mr-sm-1 mt-2" type="search" placeholder="(541)754-3010" aria-label="Search" required>
+<br> 
+<label for="customRange1" class="form-label">Age</label>
+<input type="range" class="form-range" id="customRange1">
+
+<select class="form-select form-select-md" aria-label=".form-select-sm example">
+<option selected>State</option>
+<option value="1">Maharashtra</option>
+<option value="2">Karnataka</option>
+<option value="3">Tamil-nadu</option>
+<option value="4">Andhra Pradesh</option>
+</select>
+<br>
+<select class="form-select form-select-md" aria-label=".form-select-sm example">
+<option selected>Country</option>
+<option value="1">India</option>
+<option value="2">Austrilia</option>
+<option value="3">England</option>
+<option value="4">New zealand</option>
+</select>
+<br>
+<input class="form-control mr-sm-2" type="search" placeholder="Address" aria-label="Search" required>
+<br>
+<input class="form-control mr-sm-2" type="search" placeholder="tags" aria-label="Search">
+
+   
+</form>
+
+
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary  " data-bs-dismiss="modal">Cancel</button>
+      <button type="button" click="postClientDetails()" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</section>

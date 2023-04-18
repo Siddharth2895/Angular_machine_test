@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #ffffff;
+} 
+
+ .navbar-light .navbar-nav .navbar-link
+ {
+    color:#000000;
+    font-size: 18px;
+ }
+
+ .navbar-light .navbar-nav .navbar-link:hover
+ {
+    text-decoration: underline;
+ }
+ .home img
+{
+    width:100%;
+    height: 500px;
+   object-position: center;
+   object-fit: cover;
+}
+.home img
+{
+    width:100%;
+    height: 500px;
+   object-position: center;
+   object-fit: cover;
+}
+.sb{
+    width: 650px;
+    margin-right: 350px;
+}
+.tb{
+    margin-left: 250px;
+}
+.btn{
+   margin-left: 550px;
+}
+.text{
+   margin-left: 400px;
+}
+.text1{
+    margin-left: 470px;
+ }
+ .bgb{
+    background-color: black;
+ }
+ .sb1{
+    width: 450px;
+    margin-top: 400px;
+    margin-left: 390px;
+ }
+ .sb2{
+   width: 450px;
+   
+   margin-left: -30px;
+}
+.cardsiz{
+   height: 250px;
+}
+ 
